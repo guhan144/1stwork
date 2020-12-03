@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+  
+  body {background-color:yellow;}
+  h1   {color: blue;}
+  p    {color: black  ;}
+  h3   {color: pink;}
+  h4   {color: green}
+  ol   {color: magenta}
+  
+
+      
+   table, th, td {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+      
+    th, td {
+  padding: 15px;
+}
+      
+      th {
+  text-align: left;
+}
+      
+      table {
+  border-spacing: 5px;
+}
+      
+      #t01 {
+  width: 100%;    
+  background-color: #465327;
+}
+    
+    table, th, td {
+  border: 3px solid green;
+}
+
+    
+    
+    }
+    
+    
+    .fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+#mySidenav a {
+  position: absolute;
+  right: -30px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+</style>
+</head>
+<body>
+
+<nav>
+<h1>Cyber safety</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<h2 class=".example">Welcome to my website!</h2>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.querySelector(".example").style.backgroundColor = "red";
+}
+</script>
+
+
+<p id="demo"></p>
+</nav>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello ! Welcome to my website!"'>Click Me!</button>
+
+
+
+  
+  <div id="mySidenav" class="sidenav">
+  <a href="#" id="about">                    About Us</a>
+  <a href="#" id="blog">                     Other Partners</a>
+  <a href="#" id="projects">                 Working Platforms</a>
+  <a href="#" id="contact">                  Education Plus</a>
+</div>
+
+
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Cyber Safety is trying to be safe on the internet and is the act of maximizing an user's awareness of personal safety and security risks to private information and property associated with using the internet, and the self-protection from cyber crime.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p><ol>
+
+<li> Keep Personal Information Professional and Limited
+<li> Keep Your Privacy Settings On
+<li> Practice Safe Browsing
+<li> Make Sure Your Internet Connection is Secure. Use a Secure VPN Connection
+<li> Be Careful What You Download
+<li> Choose Strong Passwords
+<li> Make Online Purchases From Secure Sites
+<li> Be Careful What You Post
+<li> Be Careful Who You Meet Online
+<li> Keep Your Antivirus Program Up To Date
+
+</ol>
+
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/o-hJMriaBLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<p style ="font-size:18px;
+              margin-left:8px;
+              margin-bottom:12px;">
+              <img src="http://d2u4q3iydaupsp.cloudfront.net/vebnmUpquLWXHwc4HkCeAnC3rgAzUghAiJPmhGg2YNyyjD3hvjIQVA33ZlZH29WOD8ZULq7cPMXFmp1o6YjVxgjVoMdPZ6Z8ajyVyKueF3ij69VxwMZp7M5tOriOqRy8" width="400" height="300" alt alt="Cyber Safety">
+
+</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p><h4>Link On Cyber Safety  </h4>
+<body style="background-color :yellow:">
+
+              <a href="https://en.wikipedia.org/wiki/Computer_security">Click here for more info</a>
+
+
+
+
+<p><h3>Information on McAfee </h3></p>
+<p> McAfee, LLC is an American global computer security software company headquartered in Santa Clara, California and claims to be the world's largest dedicated technology security company.</p>
+
+
+<p> McAfee headquaters</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.0172535881943!2d-121.9814951846328!3d37.389424242008886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fc9e82a9104e5%3A0x41bad7dc044b7cbd!2sMcAfee!5e0!3m2!1sen!2sin!4v1596071314513!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+<p> McAfee logo</p>
+
+  <img src="https://www.mcafee.com/enterprise/en-us/img/v1/common/logo-mcafee-secure.svg"width="400" hieght="300" alt="McAfee">
+
+
+</div>
+
+
+<button class="accordion">Section 4</button>
+<div class="panel">
+  <p><h1>Website on cyber security app.</h1 style="background color= yellow
+">
+<form id="form1">
+      <div class="divTable">
+             <div class="headRow">
+                <div class="divCell" align="left">App name</div>
+                <div  class="divCell">Link</div>
+                
+             </div>
+            <div class="divRow">
+                  <div class="divCell">McAfee</div>
+                <div class="divCell"><a href="https://www.mcafee.com/en-gb/index.html">McAfee link</a></div>
+                
+            </div>
+            <div class="divRow">
+                <div class="divCell">Avg</div>
+                <div class="divCell"><a href="https://www.avg.com/en-ww/avg-antivirus-for-mac?ppc=a3&gclid=Cj0KCQjwv7L6BRDxARIsAGj-34rUVVVHxwex62dSW6WJhv8w8VJFDzcmzwl08C7gsPBsiGWXaiAK_xYaAuZmEALw_wcB&gclsrc=aw.ds">Avg link</a></div>
+                
+           </div>
+            <div class="divRow">
+                <div class="divCell">Norton</div>
+                <div class="divCell"><a href="https://in.norton.com/products/norton-360-antivirus-plus?&om_sem_cid=hho_sem_sy:in:pla:en:l:pl:kw0000443004:381939166789:c&country=IN&gclid=Cj0KCQjwv7L6BRDxARIsAGj-34pb1wnIMqScuR0FpVpHQzRV8JjrhsVjgyLsbmMxHHW_V8dbBqgW4boaAmk5EALw_wcB&gclsrc=aw.ds">Norton link</a></div>
+                
+           </div>
+
+      </div>
+  </form>
+  
+  
+  
+
+</div>
+
+<button class="accordion">Section 5</button>
+<div class="panel">
+  <p>
+  
+  <iframe width="700" height="415" src="https://www.youtube.com/embed/7Xu-VHUAIGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+  
+
+</div>
+
+<button class="accordion">Section 6</button>
+<div class="panel">
+  <p>
+  
+  <iframe width="700" height="415" src="https://www.youtube.com/embed/7Xu-VHUAIGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+  
+
+</div>
+
+<p> So, what all you do be carefull of hackers,malware,cyber criminals and suspicious website.Have a safe,fun and protective time on the internet.</p>
+
+<p> THANK YOU <p>
+
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
+<i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+
+<button>Like</button>
+
+
+
+<h3>Contact us ! <h3>
+<dl>
+  <dt>Email</dt>
+  <dd>- sudharns@yahoo.co.in</dd>
+  <dt>Phone number</dt>
+  <dd>- 8826310077</dd>
+</dl>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+
+
+</body>
+</html>
